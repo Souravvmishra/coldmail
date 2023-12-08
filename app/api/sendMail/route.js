@@ -26,7 +26,7 @@ export async function POST(req, res) {
     `;
 
     try {
-        const response = await fetch('https://llamastudio.dev/api/clpw2ha8w0001l708swut78hp', {
+        const response = await fetch(process.env.GPT_URL, {
             method: 'POST',
             body: JSON.stringify({ input: prompt }),
             headers: { 'Content-Type': 'application/json' }
