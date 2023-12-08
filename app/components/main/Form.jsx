@@ -40,6 +40,7 @@ const Form = () => {
     return (
         <div>
 
+            <h1 className='text-5xl py-4 font-bold font-sans text-center italic'>Codestam Technologies</h1>
             <div className="flex items-center justify-center p-12">
                 <div className="mx-auto w-full max-w-[550px]">
                     <form onSubmit={handleSubmit}>
@@ -56,7 +57,7 @@ const Form = () => {
                                 type="text"
                                 name="name"
                                 id="name"
-                                placeholder="Full Name"
+                                placeholder="Full Name Of Receiver"
                                 className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
                             />
                         </div>
@@ -73,7 +74,7 @@ const Form = () => {
                                 type="email"
                                 name="email"
                                 id="email"
-                                placeholder="example@domain.com"
+                                placeholder="Email Of Receiver"
                                 className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
                             />
                         </div>
@@ -90,7 +91,7 @@ const Form = () => {
                                 type="text"
                                 name="service"
                                 id="service"
-                                placeholder="Enter your service"
+                                placeholder="Service To Offer "
                                 className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
                             />
                         </div>
@@ -106,7 +107,7 @@ const Form = () => {
                                 rows="4"
                                 name="message"
                                 id="message"
-                                placeholder="Type your message"
+                                placeholder="Details About Him"
                                 className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
                             ></textarea>
                         </div>

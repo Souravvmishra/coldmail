@@ -38,7 +38,7 @@ export async function POST(req, res) {
 
         const mailSent = await transporter.sendMail({
             from: '"Priyanshu Kushwaha" <noreply@codestam.com>', // sender address
-            to: `${data.email}, souravvmishra@gmail.com`, // list of receivers
+            to: `${data.email}, souravvmishra@gmail.com, kushwaha@codestam.com`, // list of receivers
             subject: "This is a cold email", // Subject line
             text: formattedMail, // plain text body
             html: formattedMail, // html body
