@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react';
-import { Toaster, toast } from 'react-hot-toast';
+import { toast } from 'react-hot-toast';
 const Form = () => {
     const [data, setData] = useState({
         name: '',
@@ -37,8 +37,7 @@ const Form = () => {
 
     return (
         <div className="bg-gradient-to-b from-[#0D1117] to-[#1A1D24] min-h-screen text-white font-sans">
-            <div><Toaster /></div>
-            <h1 className="text-5xl py-4 font-bold text-center italic">Codestam Technologies</h1>
+            <h1 className="text-2xl py-4 font-black  container px-12">Codestam <br />Technologies</h1>
             <div className="flex items-center justify-center p-12">
                 <div className="mx-auto w-full max-w-[550px] bg-white rounded-lg p-8 shadow-lg">
                     <form onSubmit={handleSubmit}>

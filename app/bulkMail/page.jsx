@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from '../components/main/bulk/Form'
+import Form from '../components/bulk/Form'
 
 const page = () => {
   return (
